@@ -7,7 +7,6 @@ public class IrPr3_4 {
         // String sh = "Short = ";
         System.out.println(textMax + s.getClass().getSimpleName() + " = " + s);
 
-
         System.out.println("__________ex 10__________");
         Short ss = Short.MIN_VALUE;
         String textMin = "Минимальное значение типа данных ";
@@ -65,7 +64,6 @@ public class IrPr3_4 {
         Short sss = (short) (800 * d);
         System.out.println("привели double к short, чем округлили результат " + sss);
 
-
         System.out.println("__________ex 20__________");
         int number = Integer.MAX_VALUE + 1;
         System.out.println("число Integer.MAX_VALUE + 1 = " + number + " это ошибка");
@@ -106,7 +104,6 @@ public class IrPr3_4 {
         System.out.println("Число Эйлера, взятое из класса Math если оно float\nee = " + ee);
         double eee = Math.E;
         System.out.println("Число Эйлера, взятое из класса Math если оно double\neee = " + eee);
-
 
         System.out.println("__________ex 26, 28__________");
         char c = 'a';
