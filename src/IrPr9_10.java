@@ -16,10 +16,9 @@ public class IrPr9_10 {
                 System.out.print(i + " ");
             }
         }
-
     }
-    //2
 
+    //2
     public static boolean isEvenNumber(int number) {
 
         return number % 2 == 0;
@@ -73,7 +72,6 @@ public class IrPr9_10 {
     public static void printBoxNumber(String[] catsColors) {
         for (int i = 0; i < catsColors.length; i++) {
             System.out.println("Box number = " + i + "\t" + catsColors[i]);
-
         }
     }
 
@@ -104,7 +102,7 @@ public class IrPr9_10 {
             System.out.print((int) Math.pow(number, i) + ", ");
         }
     }
-    //*
+
     /*
      * Написать метод, который принимает на вход 2 целочисленных параметра (a, b) и печатает последовательность
      * положительных  чисел в пределах 1000. Последовательность начинается с числа a,
@@ -113,17 +111,6 @@ public class IrPr9_10 {
      * 3, 7   ->   3 21 147
      * 5, 3   ->   5 15 45 135 405
      */
-
-    // 10
-    // Написать метод, который принимает на вход 2 символа char и печатает все символы char между ними
-
-    public static void printChar(char a, char b) {
-        for (char letter1 = a; letter1 <= b; letter1++) {
-            System.out.print(letter1 + " ");
-        }
-    }
-
-
     public static void getProgression(int a, int b) {
         for (int i = 0; i < 10; i++) {
             int number = a * (int) Math.pow(b, i);
@@ -134,12 +121,19 @@ public class IrPr9_10 {
         }
     }
 
+    // 10
+    // Написать метод, который принимает на вход 2 символа char и печатает все символы char между ними
+    public static void printChar(char a, char b) {
+        for (char letter1 = a; letter1 <= b; letter1++) {
+            System.out.print(letter1 + " ");
+        }
+    }
+
     // 16
     /*
      * Написать метод, который принимает на вход целое положительное число, не больше 10,
      * и возвращает массив double[], который содержит 10 чисел - степени этого числа (Math.pow())
      */
-
     public static double[] getArrayPowerNumber(int num) {
         double[] arrayDouble = new double[10];
         if (num > 0 && num <= 10) {
@@ -173,7 +167,6 @@ public class IrPr9_10 {
         return arrayNegative;
     }
     // 2 способ N17
-
     public static int[] getArrayNegative_2(int[] array) {
         int[] arrayNegative = new int [array.length];
         for (int n = 0; n < 7; n++) {
@@ -181,7 +174,6 @@ public class IrPr9_10 {
         }
         return arrayNegative;
     }
-
 
     public static void printLineTask(int number) {
         System.out.println("\n________________________________ex" + number + "_______________________________");
@@ -259,7 +251,6 @@ public class IrPr9_10 {
         System.out.println("\n3 способ с полностью выделенным методом");
         printEvenNumbers(1, 100);
 
-
         System.out.println();
 
         printLineTask(3);
@@ -282,7 +273,6 @@ public class IrPr9_10 {
          * иначе распечатать значение разделенное на 10
          * Создать массив из получившихся значений
          */
-
         for (double i = 1; i <= 10; i++) {
             if (i < 5) {
                 System.out.println(i * 10);
@@ -389,18 +379,17 @@ public class IrPr9_10 {
                 System.out.print(i + " ");
             }
         }
-
         System.out.println();
+
         printLineTask(2);
         /*
          * Распечатать последовательность чисел: 1, -1, 2, -2, 3, -3, ... 10, -10
          */
-
         for (int i = 1; i <= 10; i++) {
             System.out.print(i + ", " + -i + ", ");
-
         }
         System.out.println();
+
         printLineTask(3);
         /*
          * Распечатать последовательность чисел: 1 5 25 125 625 3125 15625 78125 390625
@@ -413,11 +402,11 @@ public class IrPr9_10 {
         printPower(5, 8);
 
         System.out.println();
+
         printLineTask(4);
         /*
         Распечатать последовательность чисел: 1, 10, 100, 1000, 10000, 100000, 1000000
          */
-
         printPowerWithComa(10, 6);
 
         printLineTask(5);
@@ -431,7 +420,6 @@ public class IrPr9_10 {
          * 100000
          * 1000000
          */
-
         for (int n = 0; n <= 6; n++) {
             System.out.println((int) Math.pow(10, n));
         }
@@ -463,10 +451,8 @@ public class IrPr9_10 {
          */
         String row = "1";
         for (int n = 0; n <= 4; n++) {
-
             System.out.println(row);
             row += "01";
-
         }
 
         System.out.println("2 способ");
@@ -483,7 +469,6 @@ public class IrPr9_10 {
          * 3, 7   ->   3 21 147
          * 5, 3   ->   5 15 45 135 405
          */
-
         getProgression(3, 7);
         System.out.println();
         getProgression(5, 3);
@@ -492,7 +477,6 @@ public class IrPr9_10 {
         /*
         Распечатать последовательность: 122333444455555666666777777788888888999999999
          */
-
         for (int n = 1; n <= 9; n++) {
             int m = n;
             while (m != 0) {
@@ -505,14 +489,13 @@ public class IrPr9_10 {
         /*
         Написать метод, который принимает на вход 2 символа char и печатает все символы char между ними
          */
-
         printChar('a', 'f');
 
         printLineTask(11);
         //  Создать массив {0, 45, 90, 135, 180}
-
         int[] array = {0, 45, 90, 135, 180};
         System.out.println(Arrays.toString(array));
+
         // 2 способ
         System.out.println("2 способ");
         int[] array2 = new int[5];
@@ -527,6 +510,7 @@ public class IrPr9_10 {
         // Создать массив {0.0, 4.5, 9.0, 13.5, 18.0}
         double[] arrayD = {0.0, 4.5, 9.0, 13.5, 18.0};
         System.out.println(Arrays.toString(arrayD));
+
         // 2 способ
         System.out.println("2 способ");
         double[] arrayD2 = new double[5];
@@ -581,7 +565,6 @@ public class IrPr9_10 {
          * Написать метод, который принимает на вход целое положительное число, не больше 10,
          * и возвращает массив double[], который содержит 10 чисел - степени этого числа (Math.pow())
          */
-
         System.out.println(Arrays.toString(getArrayPowerNumber(3)));
         System.out.println(Arrays.toString(getArrayPowerNumber(11)));
 
@@ -655,7 +638,6 @@ public class IrPr9_10 {
             array20[n] = (111 + n) / 100.0;
         }
         System.out.println(Arrays.toString(array20));
-
     }
 }
 
