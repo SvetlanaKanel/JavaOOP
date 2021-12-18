@@ -365,21 +365,7 @@ public class IrPr9_10 {
         System.out.println();
 
         System.out.println("************** HOME WORK PART II *******************");
-        printLineTask(1);
 
-        /*
-        Распечатать последовательность чисел от -100 до 100 включительно,
-        в которой каждое следующее число больше предыдущего на 3
-         */
-
-        for (int i = -100; i <= 100; i += 3) {
-            if (i % 20 == 0) {
-                System.out.print("\n" + i + " ");
-            } else {
-                System.out.print(i + " ");
-            }
-        }
-        System.out.println();
 
         printLineTask(2);
         /*
