@@ -21,6 +21,17 @@ public class IrPr10 {
             }
         }
         System.out.println();
+
+        printLineTask(2);
+        /*
+         * Распечатать последовательность чисел: 1, -1, 2, -2, 3, -3, ... 10, -10
+         */
+
+        for (int i = 1; i <= 10; i++) {
+            System.out.print(i + ", " + -i + ", ");
+
+        }
+        System.out.println();
     }
 
 
