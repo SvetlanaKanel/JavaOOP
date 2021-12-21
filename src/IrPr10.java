@@ -2,6 +2,13 @@ public class IrPr10 {
 
     public static void printLineTask(int number) {
         System.out.println("\n________________________________ex" + number + "_______________________________");
+
+    }
+    //3
+    public static void printPower(int number, int times) {
+        for (int i = 0; i <= times; i++) {
+            System.out.print((int) Math.pow(number, i) + " ");
+        }
     }
 
     public static void main(String[] args) {
@@ -32,6 +39,20 @@ public class IrPr10 {
 
         }
         System.out.println();
+
+        printLineTask(3);
+        /*
+         * Распечатать последовательность чисел: 1 5 25 125 625 3125 15625 78125 390625
+         */
+        for (int n = 0; n <= 8; n++) {
+            System.out.print((int) Math.pow(5, n) + " ");
+        }
+        System.out.println();
+        // то же, но с помощью метода
+        printPower(5, 8);
+
+        System.out.println();
+
     }
 
 
