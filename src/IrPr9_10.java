@@ -91,12 +91,6 @@ public class IrPr9_10 {
         }
     }
 
-    public static void printPower(int number, int times) {
-        for (int i = 0; i <= times; i++) {
-            System.out.print((int) Math.pow(number, i) + " ");
-        }
-    }
-
     public static void printPowerWithComa(int number, int times) {
         for (int i = 0; i <= times; i++) {
             System.out.print((int) Math.pow(number, i) + ", ");
@@ -365,29 +359,6 @@ public class IrPr9_10 {
         System.out.println();
 
         System.out.println("************** HOME WORK PART II *******************");
-
-
-        printLineTask(2);
-        /*
-         * Распечатать последовательность чисел: 1, -1, 2, -2, 3, -3, ... 10, -10
-         */
-        for (int i = 1; i <= 10; i++) {
-            System.out.print(i + ", " + -i + ", ");
-        }
-        System.out.println();
-
-        printLineTask(3);
-        /*
-         * Распечатать последовательность чисел: 1 5 25 125 625 3125 15625 78125 390625
-         */
-        for (int n = 0; n <= 8; n++) {
-            System.out.print((int) Math.pow(5, n) + " ");
-        }
-        System.out.println();
-        // то же, но с помощью метода
-        printPower(5, 8);
-
-        System.out.println();
 
         printLineTask(4);
         /*
