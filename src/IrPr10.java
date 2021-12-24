@@ -10,6 +10,12 @@ public class IrPr10 {
             System.out.print((int) Math.pow(number, i) + " ");
         }
     }
+    //4
+    public static void printPowerWithComa(int number, int times) {
+        for (int i = 0; i <= times; i++) {
+            System.out.print((int) Math.pow(number, i) + ", ");
+        }
+    }
 
     public static void main(String[] args) {
         System.out.println("************** HOME WORK PART II *******************");
@@ -53,7 +59,15 @@ public class IrPr10 {
 
         System.out.println();
 
+        printLineTask(4);
+    /*
+    Распечатать последовательность чисел: 1, 10, 100, 1000, 10000, 100000, 1000000
+     */
+        printPowerWithComa(10, 6);
+
+
     }
+
 
 
 
