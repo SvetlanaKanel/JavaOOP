@@ -91,12 +91,6 @@ public class IrPr9_10 {
         }
     }
 
-    public static void printPowerWithComa(int number, int times) {
-        for (int i = 0; i <= times; i++) {
-            System.out.print((int) Math.pow(number, i) + ", ");
-        }
-    }
-
     /*
      * Написать метод, который принимает на вход 2 целочисленных параметра (a, b) и печатает последовательность
      * положительных  чисел в пределах 1000. Последовательность начинается с числа a,
