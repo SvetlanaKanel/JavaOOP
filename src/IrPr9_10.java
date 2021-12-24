@@ -354,12 +354,6 @@ public class IrPr9_10 {
 
         System.out.println("************** HOME WORK PART II *******************");
 
-        printLineTask(4);
-        /*
-        Распечатать последовательность чисел: 1, 10, 100, 1000, 10000, 100000, 1000000
-         */
-        printPowerWithComa(10, 6);
-
         printLineTask(5);
         /*
          * Распечатать с помощью for
