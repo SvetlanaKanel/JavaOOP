@@ -65,6 +65,21 @@ public class IrPr10 {
      */
         printPowerWithComa(10, 6);
 
+        printLineTask(5);
+        /*
+         * Распечатать с помощью for
+         * 1
+         * 10
+         * 100
+         * 1000
+         * 10000
+         * 100000
+         * 1000000
+         */
+        for (int n = 0; n <= 6; n++) {
+            System.out.println((int) Math.pow(10, n));
+        }
+
 
     }
 
