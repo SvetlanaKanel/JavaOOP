@@ -79,6 +79,22 @@ public class IrPr10 {
         for (int n = 0; n <= 6; n++) {
             System.out.println((int) Math.pow(10, n));
         }
+
+        printLineTask(6);
+        /*
+        Распечатать с помощью for:
+        1000000
+        100000
+        10000
+        1000
+        100
+        10
+        1
+         */
+
+        for (int n = 6; n >= 0; n--) {
+            System.out.println((int) Math.pow(10, n));
+        }
     }
 
 
