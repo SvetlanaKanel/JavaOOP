@@ -79,8 +79,6 @@ public class IrPr10 {
         for (int n = 0; n <= 6; n++) {
             System.out.println((int) Math.pow(10, n));
         }
-
-
     }
 
 
