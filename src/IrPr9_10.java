@@ -354,22 +354,6 @@ public class IrPr9_10 {
 
         System.out.println("************** HOME WORK PART II *******************");
 
-        printLineTask(6);
-        /*
-        Распечатать с помощью for:
-        1000000
-        100000
-        10000
-        1000
-        100
-        10
-        1
-         */
-
-        for (int n = 6; n >= 0; n--) {
-            System.out.println((int) Math.pow(10, n));
-        }
-
         printLineTask(7);
         /*
         Распечатать с помощью for:
