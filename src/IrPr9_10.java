@@ -354,26 +354,6 @@ public class IrPr9_10 {
 
         System.out.println("************** HOME WORK PART II *******************");
 
-        printLineTask(7);
-        /*
-        Распечатать с помощью for:
-        1
-        101
-        10101
-        1010101
-        101010101
-         */
-        String row = "1";
-        for (int n = 0; n <= 4; n++) {
-            System.out.println(row);
-            row += "01";
-        }
-
-        System.out.println("2 способ");
-        for (int n = 1; n <= 101010101; n = n * 100 + 1) {
-            System.out.println(n);
-        }
-
         printLineTask(8);
         /*
          * Написать метод, который принимает на вход 2 целочисленных параметра (a, b) и печатает последовательность
