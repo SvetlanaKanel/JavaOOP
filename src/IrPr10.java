@@ -17,6 +17,17 @@ public class IrPr10 {
         }
     }
 
+    //8
+    public static void getProgression(int a, int b) {
+        for (int i = 0; i < 10; i++) {
+            int number = a * (int) Math.pow(b, i);
+            if (number >= 1000) {
+                break;
+            }
+            System.out.print(number + " ");
+        }
+    }
+
     public static void main(String[] args) {
         System.out.println("************** HOME WORK PART II *******************");
         printLineTask(1);
@@ -115,6 +126,20 @@ public class IrPr10 {
         for (int n = 1; n <= 101010101; n = n * 100 + 1) {
             System.out.println(n);
         }
+
+        printLineTask(8);
+        /*
+         * Написать метод, который принимает на вход 2 целочисленных параметра (a, b) и печатает последовательность
+         * положительных  чисел в пределах 1000. Последовательность начинается с числа a,
+         * и каждый следующий member последовательности в b раз больше предыдущего.
+         * Пример:
+         * 3, 7   ->   3 21 147
+         * 5, 3   ->   5 15 45 135 405
+         */
+        getProgression(3, 7);
+        System.out.println();
+        getProgression(5, 3);
+
     }
 
 

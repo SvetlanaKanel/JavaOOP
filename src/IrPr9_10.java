@@ -100,13 +100,13 @@ public class IrPr9_10 {
      * 5, 3   ->   5 15 45 135 405
      */
     public static void getProgression(int a, int b) {
-        for (int i = 0; i < 10; i++) {
-            int number = a * (int) Math.pow(b, i);
-            if (number >= 1000) {
-                break;
+            for (int i = 0; i < 10; i++) {
+                int number = a * (int) Math.pow(b, i);
+                if (number >= 1000) {
+                    break;
+                }
+                System.out.print(number + " ");
             }
-            System.out.print(number + " ");
-        }
     }
 
     // 10
