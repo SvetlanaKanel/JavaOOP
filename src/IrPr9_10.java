@@ -345,18 +345,6 @@ public class IrPr9_10 {
 
         System.out.println("************** HOME WORK PART II *******************");
 
-        printLineTask(9);
-        /*
-        Распечатать последовательность: 122333444455555666666777777788888888999999999
-         */
-        for (int n = 1; n <= 9; n++) {
-            int m = n;
-            while (m != 0) {
-                System.out.print(n);
-                m--;
-            }
-        }
-
         printLineTask(10);
         /*
         Написать метод, который принимает на вход 2 символа char и печатает все символы char между ними
