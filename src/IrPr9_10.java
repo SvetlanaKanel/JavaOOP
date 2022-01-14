@@ -99,15 +99,6 @@ public class IrPr9_10 {
      * 3, 7   ->   3 21 147
      * 5, 3   ->   5 15 45 135 405
      */
-    public static void getProgression(int a, int b) {
-            for (int i = 0; i < 10; i++) {
-                int number = a * (int) Math.pow(b, i);
-                if (number >= 1000) {
-                    break;
-                }
-                System.out.print(number + " ");
-            }
-    }
 
     // 10
     // Написать метод, который принимает на вход 2 символа char и печатает все символы char между ними
