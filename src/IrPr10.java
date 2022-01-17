@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class IrPr10 {
 
     public static void printLineTask(int number) {
@@ -161,6 +163,11 @@ public class IrPr10 {
         Написать метод, который принимает на вход 2 символа char и печатает все символы char между ними
          */
         printChar('a', 'f');
+
+        printLineTask(11);
+        //  Создать массив {0, 45, 90, 135, 180}
+        int[] array = {0, 45, 90, 135, 180};
+        System.out.println(Arrays.toString(array));
 
 
     }
