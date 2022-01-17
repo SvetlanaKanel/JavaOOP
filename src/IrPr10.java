@@ -27,6 +27,13 @@ public class IrPr10 {
             System.out.print(number + " ");
         }
     }
+    // 10
+    // Написать метод, который принимает на вход 2 символа char и печатает все символы char между ними
+    public static void printChar(char a, char b) {
+        for (char letter1 = a; letter1 <= b; letter1++) {
+            System.out.print(letter1 + " ");
+        }
+    }
 
     public static void main(String[] args) {
         System.out.println("************** HOME WORK PART II *******************");
@@ -151,6 +158,13 @@ public class IrPr10 {
                 m--;
             }
         }
+
+        printLineTask(10);
+        /*
+        Написать метод, который принимает на вход 2 символа char и печатает все символы char между ними
+         */
+        printChar('a', 'f');
+
 
     }
 
