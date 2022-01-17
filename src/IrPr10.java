@@ -28,7 +28,6 @@ public class IrPr10 {
         }
     }
     // 10
-    // Написать метод, который принимает на вход 2 символа char и печатает все символы char между ними
     public static void printChar(char a, char b) {
         for (char letter1 = a; letter1 <= b; letter1++) {
             System.out.print(letter1 + " ");
@@ -57,10 +56,8 @@ public class IrPr10 {
         /*
          * Распечатать последовательность чисел: 1, -1, 2, -2, 3, -3, ... 10, -10
          */
-
         for (int i = 1; i <= 10; i++) {
             System.out.print(i + ", " + -i + ", ");
-
         }
         System.out.println();
 
@@ -78,9 +75,9 @@ public class IrPr10 {
         System.out.println();
 
         printLineTask(4);
-    /*
-    Распечатать последовательность чисел: 1, 10, 100, 1000, 10000, 100000, 1000000
-     */
+        /*
+        Распечатать последовательность чисел: 1, 10, 100, 1000, 10000, 100000, 1000000
+        */
         printPowerWithComa(10, 6);
 
         printLineTask(5);
