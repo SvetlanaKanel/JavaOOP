@@ -328,11 +328,6 @@ public class IrPr9_10 {
 
         System.out.println("************** HOME WORK PART II *******************");
 
-        printLineTask(11);
-        //  Создать массив {0, 45, 90, 135, 180}
-        int[] array = {0, 45, 90, 135, 180};
-        System.out.println(Arrays.toString(array));
-
         // 2 способ
         System.out.println("2 способ");
         int[] array2 = new int[5];
