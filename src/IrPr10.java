@@ -179,6 +179,11 @@ public class IrPr10 {
         }
         System.out.println(Arrays.toString(array2));
 
+        printLineTask(12);
+        // Создать массив {0.0, 4.5, 9.0, 13.5, 18.0}
+        double[] arrayD = {0.0, 4.5, 9.0, 13.5, 18.0};
+        System.out.println(Arrays.toString(arrayD));
+
 
     }
 
