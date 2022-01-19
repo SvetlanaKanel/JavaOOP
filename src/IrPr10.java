@@ -169,6 +169,16 @@ public class IrPr10 {
         int[] array = {0, 45, 90, 135, 180};
         System.out.println(Arrays.toString(array));
 
+        // 2 способ
+        System.out.println("2 способ");
+        int[] array2 = new int[5];
+        int k = 0;
+        for (int n = 0; n < array2.length; n++) {
+            array2[n] = k;
+            k += 45;
+        }
+        System.out.println(Arrays.toString(array2));
+
 
     }
 
