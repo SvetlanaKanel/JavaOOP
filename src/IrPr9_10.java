@@ -328,16 +328,6 @@ public class IrPr9_10 {
 
         System.out.println("************** HOME WORK PART II *******************");
 
-        // 2 способ
-        System.out.println("2 способ");
-        int[] array2 = new int[5];
-        int k = 0;
-        for (int n = 0; n < array2.length; n++) {
-            array2[n] = k;
-            k += 45;
-        }
-        System.out.println(Arrays.toString(array2));
-
         printLineTask(12);
         // Создать массив {0.0, 4.5, 9.0, 13.5, 18.0}
         double[] arrayD = {0.0, 4.5, 9.0, 13.5, 18.0};
