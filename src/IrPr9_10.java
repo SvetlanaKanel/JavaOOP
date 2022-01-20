@@ -328,11 +328,6 @@ public class IrPr9_10 {
 
         System.out.println("************** HOME WORK PART II *******************");
 
-        printLineTask(12);
-        // Создать массив {0.0, 4.5, 9.0, 13.5, 18.0}
-        double[] arrayD = {0.0, 4.5, 9.0, 13.5, 18.0};
-        System.out.println(Arrays.toString(arrayD));
-
         // 2 способ
         System.out.println("2 способ");
         double[] arrayD2 = new double[5];
