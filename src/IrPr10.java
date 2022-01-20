@@ -184,6 +184,17 @@ public class IrPr10 {
         double[] arrayD = {0.0, 4.5, 9.0, 13.5, 18.0};
         System.out.println(Arrays.toString(arrayD));
 
+        // 2 способ
+        System.out.println("2 способ");
+        double[] arrayD2 = new double[5];
+        double d = 0;
+        for (int n = 0; n < arrayD2.length; n++) {
+            arrayD2[n] = d;
+            d += 4.5;
+        }
+        System.out.println(Arrays.toString(arrayD2));
+
+
 
     }
 
