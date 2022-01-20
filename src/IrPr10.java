@@ -194,6 +194,20 @@ public class IrPr10 {
         }
         System.out.println(Arrays.toString(arrayD2));
 
+        printLineTask(13);
+        /*
+         * Создать массив типа float[] из следующих значений
+         * {k, m, l}:
+         * double k = 2987.1234
+         * int l = 3456
+         * float m = 54.3
+         */
+        double k1 = 2987.1234;
+        int l = 3456;
+        float m = 54.3F;
+        float[] arrayF = {(float) k1, m, l};
+        System.out.println(Arrays.toString(arrayF));
+
 
 
     }
