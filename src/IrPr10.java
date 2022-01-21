@@ -208,6 +208,20 @@ public class IrPr10 {
         float[] arrayF = {(float) k1, m, l};
         System.out.println(Arrays.toString(arrayF));
 
+        printLineTask(14);
+        /*
+         * Создать массив типа Byte[] из следующих значений
+         * {o, o, o}:
+         * Byte o = 32;
+         * int  p = 74;
+         * Short r = 104;
+         */
+        Byte o = 32;
+        int p = 74;
+        Short r = 104;
+        Byte[] arrayB = {o, o, o};
+        System.out.println(Arrays.toString(arrayB));
+
 
 
     }
