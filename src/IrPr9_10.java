@@ -328,20 +328,6 @@ public class IrPr9_10 {
 
         System.out.println("************** HOME WORK PART II *******************");
 
-        printLineTask(13);
-        /*
-         * Создать массив типа float[] из следующих значений
-         * {k, m, l}:
-         * double k = 2987.1234
-         * int l = 3456
-         * float m = 54.3
-         */
-        double k1 = 2987.1234;
-        int l = 3456;
-        float m = 54.3F;
-        float[] arrayF = {(float) k1, m, l};
-        System.out.println(Arrays.toString(arrayF));
-
         printLineTask(14);
         /*
          * Создать массив типа Byte[] из следующих значений
