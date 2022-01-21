@@ -222,6 +222,17 @@ public class IrPr10 {
         Byte[] arrayB = {o, o, o};
         System.out.println(Arrays.toString(arrayB));
 
+        printLineTask(15);
+        /*
+         * С помощью метода класса Math.pow() создать массив степеней числа 3:
+         * [1.0, 3.0, 9.0, 27.0, 81.0, 243.0, 729.0, 2187.0, 6561.0, 19683.0]
+         */
+        float[] arrayFloat = new float[10];
+        for (int n = 0; n < 10; n++) {
+            arrayFloat[n] = (float) Math.pow(3, n);
+        }
+        System.out.println(Arrays.toString(arrayFloat));
+
 
 
     }
