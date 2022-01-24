@@ -36,6 +36,22 @@ public class IrPr10 {
         }
     }
 
+    // 16
+    /*
+     * Написать метод, который принимает на вход целое положительное число, не больше 10,
+     * и возвращает массив double[], который содержит 10 чисел - степени этого числа (Math.pow())
+     */
+    public static double[] getArrayPowerNumber(int num) {
+        double[] arrayDouble = new double[10];
+        if (num > 0 && num <= 10) {
+
+            for (int i = 0; i < arrayDouble.length; i++) {
+                arrayDouble[i] = Math.pow(num, i);
+            }
+        }
+        return arrayDouble;
+    }
+
     public static void main(String[] args) {
         System.out.println("************** HOME WORK PART II *******************");
         printLineTask(1);
@@ -233,6 +249,13 @@ public class IrPr10 {
         }
         System.out.println(Arrays.toString(arrayFloat));
 
+        printLineTask(16);
+        /*
+         * Написать метод, который принимает на вход целое положительное число, не больше 10,
+         * и возвращает массив double[], который содержит 10 чисел - степени этого числа (Math.pow())
+         */
+        System.out.println(Arrays.toString(getArrayPowerNumber(3)));
+        System.out.println(Arrays.toString(getArrayPowerNumber(11)));
 
 
     }
