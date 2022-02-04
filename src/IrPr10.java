@@ -297,7 +297,7 @@ public class IrPr10 {
         System.out.println(Arrays.toString(getArrayPositive(array17)));
         System.out.println(Arrays.toString(getArrayNegative(array17)));
         System.out.println("2 способ");
-      //  System.out.println(Arrays.toString(getArrayNegative_2(array17)));
+        System.out.println(Arrays.toString(getArrayNegative_2(array17)));
 
 
 
