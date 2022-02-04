@@ -51,6 +51,19 @@ public class IrPr10 {
         }
         return arrayDouble;
     }
+    //17
+    /*
+     *С помощью методов класса Math (догадайтесь по названиям) из массива {-13, 9, -314, -89, 98, 52, -4}:
+     * построить новый массив, в котором все числа - положительные
+     * построить новый массив, в котором все числа - отрицательные
+     */
+    public static int[] getArrayPositive(int[] array) {
+        int[] arrayPositive = new int [array.length];
+        for (int n = 0; n < 7; n++) {
+            arrayPositive[n] = Math.abs(array[n]);
+        }
+        return arrayPositive;
+    }
 
     public static void main(String[] args) {
         System.out.println("************** HOME WORK PART II *******************");
@@ -256,6 +269,21 @@ public class IrPr10 {
          */
         System.out.println(Arrays.toString(getArrayPowerNumber(3)));
         System.out.println(Arrays.toString(getArrayPowerNumber(11)));
+
+        printLineTask(17);
+        /*
+         *С помощью методов класса Math (догадайтесь по названиям) из массива {-13, 9, -314, -89, 98, 52, -4}:
+         * построить новый массив, в котором все числа - положительные
+         * построить новый массив, в котором все числа - отрицательные
+         */
+        int[] array17 = {-13, 9, -314, -89, 98, 52, -4};
+        System.out.println("Начальный массив: {-13, 9, -314, -89, 98, 52, -4}");
+
+        System.out.println(Arrays.toString(getArrayPositive(array17)));
+       // System.out.println(Arrays.toString(getArrayNegative(array17)));
+        System.out.println("2 способ");
+      //  System.out.println(Arrays.toString(getArrayNegative_2(array17)));
+
 
 
     }
