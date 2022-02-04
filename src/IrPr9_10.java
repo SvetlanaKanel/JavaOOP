@@ -97,13 +97,6 @@ public class IrPr9_10 {
      * построить новый массив, в котором все числа - положительные
      * построить новый массив, в котором все числа - отрицательные
      */
-    public static int[] getArrayPositive(int[] array) {
-        int[] arrayPositive = new int [array.length];
-        for (int n = 0; n < 7; n++) {
-            arrayPositive[n] = Math.abs(array[n]);
-        }
-        return arrayPositive;
-    }
 
     public static int[] getArrayNegative(int[] array) {
         int[] arrayNegative = new int[array.length];
