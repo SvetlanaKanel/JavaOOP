@@ -64,6 +64,21 @@ public class IrPr10 {
         }
         return arrayPositive;
     }
+    public static int[] getArrayNegative(int[] array) {
+        int[] arrayNegative = new int[array.length];
+        for (int n = 0; n < 7; n++) {
+            arrayNegative[n] = -Math.abs(array[n]);
+        }
+        return arrayNegative;
+    }
+    // 2 способ N17
+    public static int[] getArrayNegative_2(int[] array) {
+        int[] arrayNegative = new int [array.length];
+        for (int n = 0; n < 7; n++) {
+            arrayNegative[n] = Math.negateExact(Math.abs(array[n]));
+        }
+        return arrayNegative;
+    }
 
     public static void main(String[] args) {
         System.out.println("************** HOME WORK PART II *******************");
@@ -280,7 +295,7 @@ public class IrPr10 {
         System.out.println("Начальный массив: {-13, 9, -314, -89, 98, 52, -4}");
 
         System.out.println(Arrays.toString(getArrayPositive(array17)));
-       // System.out.println(Arrays.toString(getArrayNegative(array17)));
+        System.out.println(Arrays.toString(getArrayNegative(array17)));
         System.out.println("2 способ");
       //  System.out.println(Arrays.toString(getArrayNegative_2(array17)));
 
