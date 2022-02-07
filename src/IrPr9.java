@@ -282,33 +282,6 @@ public class IrPr9 {
 
         System.out.println("************** HOME WORK PART II *******************");
 
-        printLineTask(18);
-        /*
-         * С помощью методов класса Math построить массив int[]
-         * из 10 случайных положительных трехзначных чисел (random numbers). Числа должны быть не больше 1000.
-         * Методы: Math.toIntExact(), Math.round(), Math.random()
-         */
-        System.out.println("Способ 1 с помощью класса Random и метода nextInt(number)");
-
-        int[] array18 = new int[10];
-        Random num_ber = new Random();
-        for (int n = 0; n < 10; n++) {
-            array18[n] = 100 + num_ber.nextInt(900);
-        }
-        System.out.println(Arrays.toString(array18));
-        System.out.println("\nСпособ 2 с помощью класса Math.random()");
-
-        for (int n = 0; n < 10; n++) {
-            array18[n] = (int)(900 * Math.random() + 100);
-        }
-        System.out.println(Arrays.toString(array18));
-        System.out.println("\nСпособ 3 с помощью класса Math и методов toIntExact, round() и random()");
-
-        for (int n = 0; n < 10; n++) {
-            array18[n] = Math.toIntExact(Math.round(900 * Math.random() + 100));
-        }
-        System.out.println(Arrays.toString(array18));
-
         printLineTask(20);
         /*
          *С помощью методов класса Math и смекалки создать массив чисел от 1.11 до 1.99 включительно
