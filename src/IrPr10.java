@@ -327,6 +327,18 @@ public class IrPr10 {
         }
         System.out.println(Arrays.toString(array18));
 
+        printLineTask(19);
+        /*
+         *С помощью методов класса Math построить новый массив double[],
+         * в котором содержится квадратный корень каждого значения массива из задания 18.
+         */
+        double[] array19 = new double[array18.length];
+        for (int n = 0; n < 10; n++) {
+            array19[n] = Math.sqrt(array18[n]);
+        }
+        System.out.println(Arrays.toString(array18));
+        System.out.println(Arrays.toString(array19));
+
 
 
     }
