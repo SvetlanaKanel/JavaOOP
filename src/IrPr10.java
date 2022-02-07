@@ -339,6 +339,24 @@ public class IrPr10 {
         System.out.println(Arrays.toString(array18));
         System.out.println(Arrays.toString(array19));
 
+        printLineTask(20);
+        /*
+         *С помощью методов класса Math и смекалки создать массив чисел от 1.11 до 1.99 включительно
+         * Методы Math.round(), Math.nextUp()
+         */
+        double[] array20 = new double[89];
+        for (int n = 0; n < 89; n ++) {
+            //array20[n] = (Math.round(Math.nextUp(111 + n))) / 100.0;
+            array20[n] = Math.round(111 + n) / 100.0;
+        }
+        System.out.println(Arrays.toString(array20));
+
+        System.out.println("2 способ");
+        for (int n = 0; n < 89; n++) {
+            array20[n] = (111 + n) / 100.0;
+        }
+        System.out.println(Arrays.toString(array20));
+
 
 
     }
