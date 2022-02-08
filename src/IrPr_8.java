@@ -30,11 +30,8 @@ public class IrPr_8 {
     }
 
     public static boolean isNumberEven(int number) {
-        if (number % 2 == 0) {
 
-            return true;
-        }
-        return false;
+        return (number % 2 == 0);
     }
 
     public static String evenOrOddNumber(int number) {
