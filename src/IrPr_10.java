@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class IrPr10 {
+public class IrPr_10 {
 
     public static void printLineTask(int number) {
         System.out.println("\n________________________________ex" + number + "_______________________________");

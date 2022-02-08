@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Random;
 
-public class IrPr9 {
+public class IrPr_9 {
     //числа от -a до a включительно c шагом 3
     public static void printAToB(int number1, int number2, int step) {
 
