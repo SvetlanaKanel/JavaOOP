@@ -67,27 +67,6 @@ public class IrPr7_8 {
         }
     }
 
-    public static String isAgeForVoting(int age) {
-        if (age >= 18) {
-            return "You can vote.";
-        }
-        return "You cannot vote.";
-    }
-
-    public static String isAgeForDriving(int age) {
-        if (age >= 16) {
-            return "You can drive.";
-        }
-        return "You cannot drive.";
-    }
-
-    public static String isAgeForSchool(int age) {
-        if (age >= 5) {
-            return "You can go to school.";
-        }
-        return "You cannot go to school.";
-    }
-
     public static String gradeRemark(int grade) {
         if (grade == 5) {
             return "Выдать похвальную грамоту и перевести в следующий класс.";
@@ -182,16 +161,6 @@ public class IrPr7_8 {
         int age = 17;
         ageForDriving(age);
 //****************************************************************************************
-
-        printLine(2);
-
-        age = 2;
-        System.out.println("Age\t\t\t" + age);
-        System.out.println(isAgeForSchool(age) + " " + isAgeForDriving(age) + " " + isAgeForVoting(age));
-        System.out.println("Test result\t\t" + assertStringResults(
-                isAgeForSchool(age) + " " + isAgeForDriving(age) + " " + isAgeForVoting(age),
-                "You cannot go to school. You cannot drive. You cannot vote.")
-        );
 
         printLine(3);
 
