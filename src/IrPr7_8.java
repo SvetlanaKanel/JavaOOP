@@ -67,40 +67,6 @@ public class IrPr7_8 {
         }
     }
 
-    public static boolean isNumberEven(int number) {
-        if (number % 2 == 0) {
-
-            return true;
-        }
-        return false;
-    }
-
-    public static String evenOrOddNumber(int number) {
-        if (isNumberEven(number)) {
-
-            return "even";
-        }
-        return "odd";
-    }
-
-    public static int checkNumber(int number) {
-        if (isNumberEven(number)) {
-            number *= 2;
-        }
-        return number;
-    }
-
-    public static String getAction(int number) {
-        if (isNumberEven(number)) {
-
-            return "multiply by 2";
-        } else {
-
-            return "no action";
-        }
-
-    }
-
     public static String isAgeForVoting(int age) {
         if (age >= 18) {
             return "You can vote.";
@@ -216,15 +182,6 @@ public class IrPr7_8 {
         int age = 17;
         ageForDriving(age);
 //****************************************************************************************
-        printLine(1);
-
-        int j1 = 14;
-        System.out.println("Initial number\t\t" + j1);
-
-        System.out.println("Even or odd\t\t\t" + evenOrOddNumber(j1) + "\n"
-                + "Action\t\t\t\t" + getAction(j1) + "\n" + "New number\t\t\t" + checkNumber(j1));
-
-        System.out.println("Test result\t\t\t" + assertIntegerResults(checkNumber(j1), 28));
 
         printLine(2);
 
