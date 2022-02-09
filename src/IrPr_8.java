@@ -58,7 +58,27 @@ public class IrPr_8 {
 
             return "no action";
         }
+    }
 
+    public static String isAgeForVoting(int age) {
+        if (age >= 18) {
+            return "You can vote.";
+        }
+        return "You cannot vote.";
+    }
+
+    public static String isAgeForDriving(int age) {
+        if (age >= 16) {
+            return "You can drive.";
+        }
+        return "You cannot drive.";
+    }
+
+    public static String isAgeForSchool(int age) {
+        if (age >= 5) {
+            return "You can go to school.";
+        }
+        return "You cannot go to school.";
     }
 
     public static void main(String[] args) {
@@ -71,6 +91,16 @@ public class IrPr_8 {
                 + "Action\t\t\t\t" + getAction(j1) + "\n" + "New number\t\t\t" + checkNumber(j1));
 
         System.out.println("Test result\t\t\t" + assertIntegerResults(checkNumber(j1), 28));
+
+        printLine(2);
+
+        int age = 2;
+        System.out.println("Age\t\t\t" + age);
+        System.out.println(isAgeForSchool(age) + " " + isAgeForDriving(age) + " " + isAgeForVoting(age));
+        System.out.println("Test result\t\t" + assertStringResults(
+                isAgeForSchool(age) + " " + isAgeForDriving(age) + " " + isAgeForVoting(age),
+                "You cannot go to school. You cannot drive. You cannot vote.")
+        );
 
     }
 }
