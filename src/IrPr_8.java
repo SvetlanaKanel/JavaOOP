@@ -81,6 +81,19 @@ public class IrPr_8 {
         return "You cannot go to school.";
     }
 
+    public static String gradeRemark(int grade) {
+        if (grade == 5) {
+            return "Выдать похвальную грамоту и перевести в следующий класс.";
+        } else if (grade == 4) {
+            return "Перевести в следующий класс.";
+        } else if (grade == 3) {
+            return "Дать задание на лето и перевести в следующий класс.";
+        } else if (grade == 2) {
+            return "Вызвать родителей и оставить в текущем классе на второй год.";
+        } else
+            return "Ошибка ввода данных.";
+    }
+
     public static void main(String[] args) {
         printLine(1);
 
@@ -100,6 +113,16 @@ public class IrPr_8 {
         System.out.println("Test result\t\t" + assertStringResults(
                 isAgeForSchool(age) + " " + isAgeForDriving(age) + " " + isAgeForVoting(age),
                 "You cannot go to school. You cannot drive. You cannot vote.")
+        );
+
+        printLine(3);
+
+        int grade = 5;
+        System.out.println("Оценка\t\t\t" + grade);
+        System.out.println("Сообщение:\t\t" + gradeRemark(grade));
+        System.out.println("Test result\t\t"
+                + assertStringResults(gradeRemark(grade),
+                "Выдать похвальную грамоту и перевести в следующий класс.")
         );
 
     }
