@@ -1,4 +1,4 @@
-public class IrPr7_8 {
+public class IrPr_7 {
 
     public static void printLine(int number) {
         System.out.println("______________________________ex " + number + "_______________________________");
@@ -67,29 +67,6 @@ public class IrPr7_8 {
         }
     }
 
-    public static String countNumberOfDigits(int number) {
-        if (number >= -9 && number <= 9) {
-
-            return "It's one-digit number";
-        } else if (number >= -99 && number < -9 || number > 9 && number <= 99) {
-
-            return "two-digit number";
-        } else if (number >= -999 && number < -99 || number > 99 && number <= 999) {
-
-            return "three-digit number";
-        } else if (number >= -9999 && number < -999 || number > 999 && number <= 9999) {
-
-            return "four-digit number";
-        } else if (number >= -99999 && number < -9999 || number > 9999 && number <= 99999) {
-
-            return "five-digit number";
-        } else if (number >= -999999 && number < -99999 || number > 99999 && number <= 999999) {
-
-            return "six-digit number";
-        }
-        return "Invalid input. Please, enter Integer";
-    }
-
     public static int getThreeOrFiveDividing(int number) {
         int result = 0;
         if (number % 3 == 0) {
@@ -148,12 +125,6 @@ public class IrPr7_8 {
         int age = 17;
         ageForDriving(age);
 //****************************************************************************************
-
-        printLine(4);
-
-        int number7 = 1654;
-        System.out.println(number7);
-        System.out.println(countNumberOfDigits(number7));
 
         printLine(5);
 

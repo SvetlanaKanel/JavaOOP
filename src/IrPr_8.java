@@ -117,6 +117,17 @@ public class IrPr_8 {
         return "Invalid input. Please, enter Integer";
     }
 
+    public static int getThreeOrFiveDividing(int number) {
+        int result = 0;
+        if (number % 3 == 0) {
+            result += number;
+        }
+        if (number % 5 == 0) {
+            result -= number;
+        }
+        return result;
+    }
+
     public static void main(String[] args) {
         printLine(1);
 
@@ -153,6 +164,18 @@ public class IrPr_8 {
         int number7 = 1654;
         System.out.println(number7);
         System.out.println(countNumberOfDigits(number7));
+
+        printLine(5);
+
+        int number = 10;
+        int expectedResult2 = -10;
+
+        int actualResult2 = getThreeOrFiveDividing(number);
+
+        System.out.println("Number\t\t\t" + number + "\n"
+                + "Expected result\t\t" + expectedResult2 + "\n"
+                + "Actual result\t\t" + actualResult2 + "\n"
+                +assertIntegerResults(actualResult2, expectedResult2));
 
     }
 }
