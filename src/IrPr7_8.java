@@ -67,19 +67,6 @@ public class IrPr7_8 {
         }
     }
 
-    public static String gradeRemark(int grade) {
-        if (grade == 5) {
-            return "Выдать похвальную грамоту и перевести в следующий класс.";
-        } else if (grade == 4) {
-            return "Перевести в следующий класс.";
-        } else if (grade == 3) {
-            return "Дать задание на лето и перевести в следующий класс.";
-        } else if (grade == 2) {
-            return "Вызвать родителей и оставить в текущем классе на второй год.";
-        } else
-            return "Ошибка ввода данных.";
-    }
-
     public static String countNumberOfDigits(int number) {
         if (number >= -9 && number <= 9) {
 
@@ -161,16 +148,6 @@ public class IrPr7_8 {
         int age = 17;
         ageForDriving(age);
 //****************************************************************************************
-
-        printLine(3);
-
-        int grade = 5;
-        System.out.println("Оценка\t\t\t" + grade);
-        System.out.println("Сообщение:\t\t" + gradeRemark(grade));
-        System.out.println("Test result\t\t"
-                + assertStringResults(gradeRemark(grade),
-                "Выдать похвальную грамоту и перевести в следующий класс.")
-        );
 
         printLine(4);
 
