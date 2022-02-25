@@ -124,18 +124,6 @@ public class IrPr_7 {
 
         int age = 17;
         ageForDriving(age);
-//****************************************************************************************
 
-        printLine(5);
-
-        int number = 10;
-        int expectedResult2 = -10;
-
-        int actualResult2 = getThreeOrFiveDividing(number);
-
-        System.out.println("Number\t\t\t" + number + "\n"
-                + "Expected result\t\t" + expectedResult2 + "\n"
-                + "Actual result\t\t" + actualResult2 + "\n"
-                +assertIntegerResults(actualResult2, expectedResult2));
     }
 }
